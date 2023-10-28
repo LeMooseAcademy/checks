@@ -2,7 +2,7 @@ import check50
 
 @check50.check()
 def hello():
-  """input of "hello" outputs "HELLO""""
+  """input of 'hello' outputs 'HELLO'"""
   check50.run("python loud.py").stdin("hello").stdout("HELLO").exit(0)
 
 
